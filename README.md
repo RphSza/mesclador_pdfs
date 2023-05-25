@@ -1,4 +1,4 @@
-# mesclador_pdfs
+# Descrição
  Mescla arquivos PDF na ordem selecionada, salvando o resultado na pasta downloads do usuário.
 
 ## Racional
