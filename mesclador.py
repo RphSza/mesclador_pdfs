@@ -4,9 +4,7 @@ from datetime import datetime
 from tkinter.filedialog import askopenfilename
 
 arquivo = pyf.PdfFileMerger()
-print(arquivo, type(arquivo))
 caminho = Path(askopenfilename(filetypes=[('PDF', '*.pdf')]))
-print(caminho, type(caminho))
 while caminho.name != '':
     arquivo.append(caminho)
     caminho = Path(askopenfilename(filetypes=[('PDF', '*.pdf')]))
